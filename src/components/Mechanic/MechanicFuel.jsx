@@ -21,7 +21,7 @@ const MechanicFuel = () => {
             <div class="col">
               <h5 class="card-title">Select Fuel Type</h5>
             </div>
-            <Link to="/">
+            <Link to="/Mechanic">
               <div class="col">X</div>
             </Link>
           </div>

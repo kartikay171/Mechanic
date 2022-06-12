@@ -16,7 +16,7 @@ function App() {
       {/* <Routes /> */}
 
       <Switch>
-        <Route exact path="/" component={Mechanic} />
+        <Route exact path="/Mechanic" component={Mechanic} />
         <Route path="/MechanicManu" component={MechanicManu} />
         <Route path="/MechanicBrand" component={MechanicBrand} />
         <Route path="/MechanicFuel" component={MechanicFuel} />
