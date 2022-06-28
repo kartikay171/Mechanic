@@ -1,12 +1,6 @@
 import "./App.css";
-import "../src/components/materialUi/materialUi";
-import MaterialUi from "../src/components/materialUi/materialUi";
-import Mechanic from "./components/Mechanic/Mechanic";
-import MechanicManu from "./components/Mechanic/MechanicManu";
-import MechanicBrand from "./components/Mechanic/MechanicBrand";
-import MechanicFuel from "./components/Mechanic/MechanicFuel";
-import Routes from "./components/routes/Route";
-import { Route, Switch } from "react-router-dom";
+// import "../src/components/materialUi/materialUi";
+import Forms from "./components/forms/forms";
 
 function App() {
   return (
@@ -15,12 +9,7 @@ function App() {
       {/* <Mechanic /> */}
       {/* <Routes /> */}
 
-      <Switch>
-        <Route exact path="/Mechanic" component={Mechanic} />
-        <Route path="/MechanicManu" component={MechanicManu} />
-        <Route path="/MechanicBrand" component={MechanicBrand} />
-        <Route path="/MechanicFuel" component={MechanicFuel} />
-      </Switch>
+      <Forms />
     </>
   );
 }
